@@ -1,0 +1,428 @@
+body {
+    color: white;
+    background-color: black;
+}
+.container {
+    max-width: 95% !important;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+  }
+
+a {
+    color: white;
+}
+
+ul#menu li {
+    display:inline;
+}
+
+li {
+    margin: 0 8px 0px 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Section Header Start */
+.logo > img {
+    width: 85%;
+    height: 100%;
+}
+
+#menu {
+    padding-left: 0;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.btn_registro > div {
+    margin-top: 8px;
+}
+
+.btn_registro > div > button {
+    font-size: 10px;
+    border-radius: 25px;
+    width: 74%;
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.iniciar_sesion > div {
+    margin-top: 10px;
+    float: right;
+}
+
+/* Section Header End */
+
+/*-------------------------------*/
+
+/* Menu Nuevo I Start */
+.btn_ver_catalogo > button {
+    font-size: 14px;
+    border-radius: 25px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+/* Menu Nuevo I End */
+
+/*-------------------------------*/
+
+/* Menu Nuevo II Start */
+/* #interactivos div:nth-child(1) > img { */
+.menu_recien_llegados {
+    margin-top: 25px;
+    padding: 25px;
+}
+
+#interactivos * h6 {
+    padding-top: 25px;
+}
+
+
+#interactivos {
+    margin-top: 32px;
+}
+
+#interactivos * img {
+    width: 120%;
+    height: 95px;
+}
+
+#interactivos * p {
+    margin-bottom: 0;
+    color: #b0b2aa;
+    font-size: 15px;
+}
+
+/* Menu Nuevo II End */
+
+/*-------------------------------*/
+
+/*Menu busqueda Start */
+.menu_busqueda {
+    margin-top: 35px;
+}
+
+.menu_busqueda * h2 {
+    font-size: 54px;
+}
+
+.menu_busqueda * p {
+    color: #b0b2aa;
+    font-size: 20px;
+}
+
+.right-inner-addon {
+    position: relative;
+    margin-left: 25%;
+    width: 52%;
+    margin-top: 50px;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    padding: 12px 12px;
+    pointer-events: none;
+    color: red;
+    font-size: 36px;
+    color: #28579a;
+}
+
+.right-inner-addon > input {
+    font-size: 30px;
+    border-radius: 35px;
+    border: 5px solid #28579a;
+}
+/*Menu busqueda End */
+
+/*-------------------------------*/
+
+/* Menu Promoción Start */
+.menu_promociones_ofertas * p {
+    color: #b0b2aa;
+    font-size: 20px;
+}
+
+.menu_promociones_ofertas * img {
+    width: 112%;
+    height: 100%;
+}
+
+.menu_promociones_ofertas * button {
+    font-size: 15px;
+    border-radius: 25px;
+    width: 74%;
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+/* Menu Promoción End */
+
+/*-------------------------------*/
+
+/* Footer Start */
+.contactenos * h1 {
+    font-size: 55px;
+}
+
+.contactenos #quieres {
+    color: #b0b2aa;
+    font-size: 20px;
+    margin-bottom: 38px;
+}
+
+.contactenos * input {
+    width: 100%;
+    font-size: 22px;
+}
+
+.contactenos * textarea {
+    width: 100%;
+    font-size: 22px;
+}
+
+.social_img {
+    /* position: fixed; */
+    position: inherit;
+    bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social_img > img{
+    width: 5%;
+    height: 50px;
+    border-radius: 14px;
+    margin-left: 7px;
+}
+
+.contactenos * img {
+    width: 38px;
+    height: 38px;
+    margin: 5px;
+}
+
+.contactenos * button {
+    font-size: 16px;
+    border-radius: 25px;
+    width: 35%;
+    background-color: white;
+    color: black;
+    border-color: white;
+    float: right;
+}
+
+/* Footer End */
+
+/* responsive */
+@media only screen and (min-width: 1024px)  {
+    /* .container {
+        max-width: 1150px;
+    } */
+
+    #menu {
+        font-size: 25px;
+    }
+    
+    .menu_nuevos_productos * img {
+        width: 125%;
+    }
+
+    .social_img {
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 769px)  {
+    .menu_promociones_ofertas * button {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px)  {
+
+    /* Page Nuevo */
+    .logo > img {
+        width: 34%;
+    }
+
+    .iniciar_sesion > div { 
+        float: initial;
+        text-align: center;
+    }
+
+    .btn_registro > div {
+        text-align: center;
+    }
+
+    .btn_registro > div > button {
+        font-size: 10px;
+        width: 50%;
+    }    
+    
+    .menu_nuevos_productos {
+        margin-top: 40px;
+    }
+
+    .menu_nuevos_productos * h1 {
+        font-size: 30px;
+    }
+
+    .btn_ver_catalogo > button { 
+        font-size: 14px;
+        width: 50%;
+    }
+
+    /* Pgae Productos */
+    #interactivos {
+        text-align: center;
+    }
+    
+    #interactivos * img { 
+        width: 50%;  
+        margin-top: 7%;  
+    }
+
+    /* Page Busqueda */
+
+    .menu_busqueda * .row {
+        text-align: center;
+    }
+
+    .menu_busqueda * h2 {
+        font-size: 36px;
+    }
+
+    /* Page Promoción */
+    .menu_promociones_ofertas * h1{
+        font-size: 45px;
+    }
+
+    /* Page Contacto */
+    .contactenos * h1 {
+        font-size: 45px;
+    }
+
+    .contactenos * h3 {
+        font-size: 25px;
+    }
+
+    .contactenos * button {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) and (min-width: 150px)  {
+
+    /* Page Nuevo */
+    #menu {
+        display: grid;
+    }
+
+    .logo > img {
+        width: 50%;
+    }
+
+    .iniciar_sesion > div { 
+        float: initial;
+        text-align: center;
+    }
+
+    .btn_registro > div {
+        text-align: center;
+    }
+
+    .btn_registro > div > button {
+        font-size: 10px;
+        width: 30%;
+    }    
+    
+    .menu_nuevos_productos {
+        margin-top: 40px;
+    }
+
+    .menu_nuevos_productos * h1, h4 {
+        font-size: 20px;
+    }
+
+    .btn_ver_catalogo > button { 
+        font-size: 10px;
+        width: 30%;
+    }
+
+    /* Pgae Productos */
+    #interactivos {
+        text-align: center;
+    }
+    
+    #interactivos * img { 
+        width: 50%;  
+        margin-top: 7%;  
+    }
+
+    /* Page Busqueda */
+
+    .menu_busqueda * .row {
+        text-align: center;
+    }
+
+    .menu_busqueda * img {
+        width: 70%;
+    }
+
+    .menu_busqueda * h2 {
+        font-size: 26px;
+    }
+
+    .menu_busqueda * p {
+        font-size: 20px;
+    }
+
+    /* Page Promoción */
+    .menu_promociones_ofertas * h1{
+        font-size: 35px;
+    }
+
+    /* Page Promoción */
+    .menu_promociones_ofertas * h1{
+        font-size: 45px;
+    }
+
+    /* Page Contacto */
+    .contactenos * h1 {
+        font-size: 35px;
+    }
+
+    .contactenos * h3 {
+        font-size: 15px;
+    }
+
+    .contactenos * button {
+        font-size: 10px;
+    }
+
+    /* Footer */
+    
+    .social_img > img {
+        height: 32px;
+    }    
+}
